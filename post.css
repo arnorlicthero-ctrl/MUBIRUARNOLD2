@@ -1,0 +1,84 @@
+content.card.three{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+.container{
+    background-color: rgb(185, 184, 177);
+    width: 100%;
+}
+.container.row{
+    margin: auto;
+    width: 80%;
+}
+.container.row.header{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+}
+.container.row.header h1{
+    color: rgb(255, 0, 0);
+    padding-top: 20px;
+    font-size: 45%;
+}
+.container.header.row p{
+    margin-top: 15px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(255, 0, 0);
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content .card{
+    flex: 1;
+    border-radius: 25px;
+    margin: 50px 20px;
+    overflow: auto;
+    background-color: black;
+    box-shadow: 0px opx 5px 0px rgb(red, green, rgb(105, 219, 11));
+}
+.content .card img{
+    width: 100%;
+    height: auto;
+}
+.content .card p{
+ font-size: 80%;
+ line-height: 1.5;
+ padding: 10px;
+ color: rgb(242, 242, 26);
+}
+.content .card h3{
+    color: rgb(213, 18, 18);
+    text-align: center;
+    font-size: 15px;
+}
+.content .card .one{
+    color: rgb(159, 248, 7);
+    text-align: start;
+    font-size: 15px;
+}
+.content .card .two{
+    color: rgb(129, 236, 6);
+    text-align: start;
+    font-size: 15px;
+}
+.content .card .three{
+    color: rgb(255, 0, 0);
+    text-align: start;
+    font-size: 15px;
+}
+.content .card .footer{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    justify-items: center;
+    background-color: rgb(112, 114, 255);
+    justify-content: space-between ;
+}
